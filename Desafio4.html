@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="..//DESAFIO4/Desafio4.css">
+    <script type="module" src="..//DESAFIO4/Modulo4.js"></script>
+    <title>ME ACHA!</title>
+</head>
+<body>
+
+    <header class="flexJust">
+        <h1>ME ACHA! </h1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP </h2>
+        <section class="flex bolaicone">
+        <span class="material-icons icone flex">travel_explore</span>
+        </section>
+    </header>
+
+    <main class="flexJust">
+        <form>
+            <fieldset class="flexJust"> 
+                <label for="Cep">Cep</label>
+                <input type="text" value="" id="numeroCep">
+                <label for="Rua">Rua</label>
+                <input type="text" value=""id="logradouro" disabled>
+                <label for="Bairro">Bairro</label>
+                <input type="text" value="" id="bairro" disabled>
+                <label for="Cidade">Cidade</label>
+                <input type="text" value="" id="localidade" disabled>
+                <label for="Estado">Estado</label>
+                <input type="text" value="" id="uf" disabled>
+                <input type="button" class="btn flexJust" id="buscar" value="BUSCAR">
+            </fieldset>
+            
+
+        </form>
+    </main>
+    
+</body>
+</html>
